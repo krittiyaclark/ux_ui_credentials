@@ -1,24 +1,43 @@
 @import "config.scss";
 
-/* Variables */
-/* COLORS */
-$grey: #554d56;
-$yello-orange:#fdbd39;
+html,
+body {
+  /* Center and scale the image nicely */
+  height: 100vh;
+  margin: 0;
+  position: relative;
 
-/* FONT SIZES */
-$font-size-nornal: 14px;
-$font-size-medium: 30px;
-$font-size-large: 45px;
-$font-size-extra-large: 54px;
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-image: url('/beach.jpg');
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
 /* HEADER */
 header {
-  padding-top: 20%;
+  padding: 9% 0;
 
   h1 {
     color: $grey;
     font-size: $font-size-medium;
   }
+}
+
+/* CARD */
+.card {
+  box-shadow: 0 7px 14px 0 rgba(49,49,93,0.10),
+              0 3px 6px 0 rgba(0,0,0,0.08);
+  border-radius: 4px;
+  border: 0;
+  padding: 15px;
 }
 
 /* FORM */
@@ -59,5 +78,12 @@ input[type=password], input[type=email] {
 .submit {
   background-color: $yello-orange;
   border: none;
+  margin: 9% 0;
   width: 100%;
+}
+
+.overlay{
+
+  /* needed styles for the overlay */
+  z-index: 10; /* keep on top of other elements on the page */
 }

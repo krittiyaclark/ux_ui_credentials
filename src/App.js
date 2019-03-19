@@ -7,24 +7,16 @@ class App extends Component {
   render() {
     return (
       <>
-        <div className="section">
-          <div className="container-fluid">
+          <div className="container-fluid  overlay">
             <div className="row">
-              <div className="col-md-4 offset-md-4">
+              <div className="col-md-4 mx-auto">
+                <div className="card text-center">
                 <header>
                   <h1>
                     Great to see you again!
                   </h1>
                 </header>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <div className="section">
-          <div className="container-fluid">
-            <div className="row">
-              <div className="col-md-4 offset-md-4">
                 <form>
                   <div className="form-group">
                     <label htmlFor="exampleInputEmail1" className="inputLabel">Email address</label>
@@ -37,15 +29,11 @@ class App extends Component {
                   <button type="submit" className="btn btn-primary submit">Submit</button>
                 </form>
 
-              </div>
-            </div>
-          </div>
-        </div>
+
 
         <footer className="section">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-md-4 offset-md-4">
                 <div className="col">
                     <span><a href="https://app.zeplin.io/forgot-password">Forgot Password?</a></span>
                     <span>Don't have an account? <a href="https://app.zeplin.io/register">Get started</a></span>
@@ -59,10 +47,15 @@ class App extends Component {
                         <a href="https://zpl.io/download-windows-64" id="windowsDownloadLink">Download here</a>
                     </span>
                 </div>
-              </div>
             </div>
           </div>
         </footer>
+      </div>
+    </div>
+  </div>
+
+</div>
+
       </>
     );
   }
