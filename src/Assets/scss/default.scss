@@ -3,6 +3,11 @@
 html,
 body {
   /* Center and scale the image nicely */
+  // background-image: url('/beach.jpg');
+  // background-position: center;
+  // background-repeat: repeat;
+  // background-size: cover;
+  // background-attachment: fixed;
   height: 100vh;
   margin: 0;
   position: relative;
@@ -14,11 +19,10 @@ body {
 }
 
 body {
-  background-image: url('/beach.jpg');
-  background-position: center;
-  background-repeat: repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background: #0099F7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F11712, #0099F7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 /* HEADER */
@@ -26,13 +30,14 @@ header {
   padding: 9% 0;
 
   h1 {
-    color: $grey;
+    color: $white;
     font-size: $font-size-medium;
   }
 }
 
 /* CARD */
 .card {
+  background-color: rgba(0,0,0,0.5) !important;
   box-shadow: 0 7px 14px 0 rgba(49,49,93,0.10),
               0 3px 6px 0 rgba(0,0,0,0.08);
   border-radius: 4px;
@@ -62,6 +67,14 @@ input[type=password], input[type=email] {
   transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
 }
 
+  input:focus{
+    outline: none;
+box-shadow:none !important;
+border:1px solid #ccc !important;
+
+}
+
+
 .inputLabel {
     position: absolute;
     left: 0;
@@ -80,10 +93,4 @@ input[type=password], input[type=email] {
   border: none;
   margin: 9% 0;
   width: 100%;
-}
-
-.overlay{
-
-  /* needed styles for the overlay */
-  z-index: 10; /* keep on top of other elements on the page */
 }

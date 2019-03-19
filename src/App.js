@@ -7,10 +7,9 @@ class App extends Component {
   render() {
     return (
       <>
-          <div className="container-fluid  overlay">
-            <div className="row">
-              <div className="col-md-4 mx-auto">
-                <div className="card text-center">
+          <div className="container-fluid  animated bounceInDown">
+            <div className="d-flex justify-content-center">
+              <div className="card mt-5 col-md-4 mx-auto">
                 <header>
                   <h1>
                     Great to see you again!
@@ -53,8 +52,6 @@ class App extends Component {
       </div>
     </div>
   </div>
-
-</div>
 
       </>
     );
