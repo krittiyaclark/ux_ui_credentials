@@ -96,17 +96,47 @@ input[type=password], input[type=email] {
 }
 
 .submit {
-  background-color: $yello-orange;
-  border: none;
+  background: $yello-orange;
+  border:2px solid $yello-orange;
+  color: $lightGrey;
   margin: 9% 0;
   width: 100%;
+  position:relative;
+
+  @include transition(all 0.5s ease);
+}
+
+.hover-effect {
+	border-color:$yello-orange;
+	overflow:hidden;
+
+	.insider {
+		background-color:$white;
+		width:100%;
+		height:20px;
+		position:absolute;
+		left: -215px;
+
+		@include transform(rotateZ(45deg));
+	}
+
+	&:hover {
+		background-color: $yello-orange;
+		border-color: $white;
+		color: $white;
+
+		.insider {
+			@include transition(all 0.3s ease);
+			left: 215px;
+		}
+	}
 }
 
 .footer-font {
   color: $white;
   font-size: $font-size-small;
 
-   a:hover {
+   a {
      color: $yello-orange;
    }
 }

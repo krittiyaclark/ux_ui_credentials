@@ -27,7 +27,9 @@ class App extends Component {
                     <input type="password" className="form-control" id="exampleInputPassword1" required></input>
                     <label htmlFor="exampleInputPassword1" className="inputLabel form-control-placeholder">Password</label>
                   </div>
-                  <button type="submit" className="btn btn-primary submit">Submit</button>
+                  <button type="submit" className="btn btn-primary submit hover-effect">
+                    <div class='insider'></div>Submit
+                  </button>
                 </form>
 
 
