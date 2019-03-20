@@ -101,3 +101,12 @@ input[type=password], input[type=email] {
   margin: 9% 0;
   width: 100%;
 }
+
+.footer-font {
+  color: $white;
+  font-size: $font-size-small;
+
+   a:hover {
+     color: $yello-orange;
+   }
+}

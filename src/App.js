@@ -7,10 +7,10 @@ class App extends Component {
   render() {
     return (
       <>
-          <div className="container-fluid  animated bounceInDown">
+          <div className="container-fluid h-100 animated bounceInDown">
             <div className="d-flex justify-content-center">
-              <div className="card mt-5 col-md-4 mx-auto">
-                <header>
+              <div className="card mt-5 col-md-8 mx-auto">
+                <header className="text-center">
                   <h1>
                     Great to see you again!
                   </h1>
@@ -35,17 +35,17 @@ class App extends Component {
         <footer className="section">
           <div className="container-fluid">
             <div className="row">
-                <div className="col">
-                    <span><a href="https://app.zeplin.io/forgot-password">Forgot Password?</a></span>
-                    <span>Don't have an account? <a href="https://app.zeplin.io/register">Get started</a></span>
+                <div className="col-sm-4">
+                    <span className="footer-font"><a href="https://app.zeplin.io/forgot-password">Forgot Password?</a></span>
                 </div>
-                <div  className="col" id="downloadApp">
-                    <span>
+                <div className="col-sm-8 text-right">
+                    <span className="footer-font">Don't have an account? <a href="https://app.zeplin.io/register">Get started</a></span>
+                </div>
+                <div  className="col-sm-12 text-center" id="downloadApp">
+                    <span className="footer-font">
                         Looking for the
                         <span className="mac">Mac</span><span className="windows">Windows</span> app?
-                        <a href="https://app.zeplin.io/downloads" className="downloadsLink">Download here</a>
-                        <a href="https://zpl.io/download-mac" id="macDownloadLink">Download here</a>
-                        <a href="https://zpl.io/download-windows-64" id="windowsDownloadLink">Download here</a>
+                        <a href="https://app.zeplin.io/downloads" className="downloadsLink"> Download here</a>
                     </span>
                 </div>
             </div>
