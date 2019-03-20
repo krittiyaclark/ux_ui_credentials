@@ -18,12 +18,14 @@ class App extends Component {
 
                 <form>
                   <div className="form-group">
-                    <label htmlFor="exampleInputEmail1" className="inputLabel">Email address</label>
-                    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username / email"></input>
+
+                    <input type="email" className="form-control" aria-describedby="emailHelp" required></input>
+                    <label htmlFor="exampleInputEmail1" className="form-control-placeholder">Username / email</label>
                   </div>
                   <div className="form-group">
-                    <label htmlFor="exampleInputPassword1" className="inputLabel">Password</label>
-                    <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password"></input>
+
+                    <input type="password" className="form-control" id="exampleInputPassword1" required></input>
+                    <label htmlFor="exampleInputPassword1" className="inputLabel form-control-placeholder">Password</label>
                   </div>
                   <button type="submit" className="btn btn-primary submit">Submit</button>
                 </form>
