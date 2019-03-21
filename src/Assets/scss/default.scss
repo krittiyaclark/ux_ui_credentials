@@ -3,11 +3,6 @@
 html,
 body {
   /* Center and scale the image nicely */
-  // background-image: url('/beach.jpg');
-  // background-position: center;
-  // background-repeat: repeat;
-  // background-size: cover;
-  // background-attachment: fixed;
   height: 100vh;
   margin: 0;
   position: relative;
@@ -20,9 +15,8 @@ body {
 
 body {
   background: #0099F7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #F11712, #0099F7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: -webkit-linear-gradient(to right, #F11712, #0099F7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* HEADER */
@@ -32,6 +26,11 @@ header {
   h1 {
     color: $white;
     font-size: $font-size-medium;
+
+    small {
+      display: block;
+      font-size: $font-size-nornal;
+    }
   }
 }
 
@@ -99,7 +98,7 @@ input[type=password], input[type=email] {
   background: $yello-orange;
   border:2px solid $yello-orange;
   color: $lightGrey;
-  margin: 9% 0;
+  // margin: 9% 0;
   width: 100%;
   position:relative;
 
@@ -115,7 +114,7 @@ input[type=password], input[type=email] {
 		width:100%;
 		height:20px;
 		position:absolute;
-		left: -215px;
+		left: -347px;
 
 		@include transform(rotateZ(45deg));
 	}
@@ -127,7 +126,7 @@ input[type=password], input[type=email] {
 
 		.insider {
 			@include transition(all 0.3s ease);
-			left: 215px;
+			left: 344px;
 		}
 	}
 }
@@ -139,4 +138,23 @@ input[type=password], input[type=email] {
    a {
      color: $yello-orange;
    }
+}
+
+/* MEDIA QUERY */
+@media only screen and (min-width: 1200px) {
+  .form-size {
+    min-width: 392px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .form-size {
+    min-width: 392px;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  .form-size {
+    width: 100%;
+  }
 }

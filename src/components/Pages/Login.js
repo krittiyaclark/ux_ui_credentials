@@ -7,7 +7,7 @@ class Login extends Component {
       <>
           <div className="container-fluid h-100 animated bounceInDown">
             <div className="d-flex justify-content-center">
-              <div className="card mt-5 col-md-8 mx-auto">
+              <div className="card mt-5 col-md-8 mx-auto form-size">
                 <header className="text-center">
                   <h1>
                     Great to see you again!
@@ -25,7 +25,7 @@ class Login extends Component {
                     <input type="password" className="form-control" id="exampleInputPassword1" required></input>
                     <label htmlFor="exampleInputPassword1" className="inputLabel form-control-placeholder">Password</label>
                   </div>
-                  <button type="submit" className="btn btn-primary submit hover-effect">
+                  <button type="submit" className="btn btn-primary mt-3 mb-3 submit hover-effect">
                     <div class='insider'></div>Submit
                   </button>
                 </form>

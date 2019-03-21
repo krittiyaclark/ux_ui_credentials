@@ -7,10 +7,11 @@ class ForgotPassword extends Component {
       <>
           <div className="container-fluid h-100 animated bounceInDown">
             <div className="d-flex justify-content-center">
-              <div className="card mt-5 col-md-8 mx-auto">
+              <div className="card mt-5 col-md-8 mx-auto form-size">
                 <header className="text-center">
                   <h1>
-                    Great to see you again!
+                    Forgot your password?
+                    <small className="text-danger mt-3">We'll send you an email with a reset link.</small>
                   </h1>
                 </header>
 
@@ -20,41 +21,14 @@ class ForgotPassword extends Component {
                     <input type="email" className="form-control" aria-describedby="emailHelp" required></input>
                     <label htmlFor="exampleInputEmail1" className="form-control-placeholder">Username / email</label>
                   </div>
-                  <div className="form-group">
-
-                    <input type="password" className="form-control" id="exampleInputPassword1" required></input>
-                    <label htmlFor="exampleInputPassword1" className="inputLabel form-control-placeholder">Password</label>
-                  </div>
-                  <button type="submit" className="btn btn-primary submit hover-effect">
-                    <div class='insider'></div>Submit
+                  <button type="submit" className="btn btn-primary mt-3 mb-3 submit hover-effect">
+                    <div className="insider"></div>
+                      Reset password
                   </button>
                 </form>
-
-
-
-                <footer className="section">
-                  <div className="container-fluid">
-                    <div className="row">
-                        <div className="col-sm-4">
-                            <span className="footer-font"><Link to='/ForgotPassword'>Forgot Password?</Link></span>
-                        </div>
-                        <div className="col-sm-8 text-right">
-                            <span className="footer-font">Don't have an account? <Link to='/Register'>Get started</Link></span>
-                        </div>
-                        <div  className="col-sm-12 text-center" id="downloadApp">
-                            <span className="footer-font">
-                                Looking for the
-                                <span className="mac">Mac</span><span className="windows">Windows</span> app?
-                                <a href="https://app.zeplin.io/downloads" className="downloadsLink"> Download here</a>
-                            </span>
-                        </div>
-                    </div>
-                  </div>
-                </footer>
-      </div>
-    </div>
-  </div>
-
+              </div>
+            </div>
+          </div>
       </>
     )
   }
