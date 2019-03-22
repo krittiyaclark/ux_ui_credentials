@@ -1,13 +1,13 @@
 {
-  "main.css": "/krittiyaclark/ux_ui_credentials/static/css/main.eeec659c.chunk.css",
-  "main.js": "/krittiyaclark/ux_ui_credentials/static/js/main.c3ac2873.chunk.js",
-  "main.js.map": "/krittiyaclark/ux_ui_credentials/static/js/main.c3ac2873.chunk.js.map",
-  "runtime~main.js": "/krittiyaclark/ux_ui_credentials/static/js/runtime~main.b38c8118.js",
-  "runtime~main.js.map": "/krittiyaclark/ux_ui_credentials/static/js/runtime~main.b38c8118.js.map",
-  "static/js/2.5eebd008.chunk.js": "/krittiyaclark/ux_ui_credentials/static/js/2.5eebd008.chunk.js",
-  "static/js/2.5eebd008.chunk.js.map": "/krittiyaclark/ux_ui_credentials/static/js/2.5eebd008.chunk.js.map",
-  "index.html": "/krittiyaclark/ux_ui_credentials/index.html",
-  "precache-manifest.fd76713181346cc29cfdd1f327bd8256.js": "/krittiyaclark/ux_ui_credentials/precache-manifest.fd76713181346cc29cfdd1f327bd8256.js",
-  "service-worker.js": "/krittiyaclark/ux_ui_credentials/service-worker.js",
-  "static/css/main.eeec659c.chunk.css.map": "/krittiyaclark/ux_ui_credentials/static/css/main.eeec659c.chunk.css.map"
+  "main.css": "/ux_ui_credentials/static/css/main.eeec659c.chunk.css",
+  "main.js": "/ux_ui_credentials/static/js/main.3a78ac35.chunk.js",
+  "main.js.map": "/ux_ui_credentials/static/js/main.3a78ac35.chunk.js.map",
+  "runtime~main.js": "/ux_ui_credentials/static/js/runtime~main.17fe3701.js",
+  "runtime~main.js.map": "/ux_ui_credentials/static/js/runtime~main.17fe3701.js.map",
+  "static/js/2.5eebd008.chunk.js": "/ux_ui_credentials/static/js/2.5eebd008.chunk.js",
+  "static/js/2.5eebd008.chunk.js.map": "/ux_ui_credentials/static/js/2.5eebd008.chunk.js.map",
+  "index.html": "/ux_ui_credentials/index.html",
+  "precache-manifest.737796c7dcf63e4893373ae8e57f3cce.js": "/ux_ui_credentials/precache-manifest.737796c7dcf63e4893373ae8e57f3cce.js",
+  "service-worker.js": "/ux_ui_credentials/service-worker.js",
+  "static/css/main.eeec659c.chunk.css.map": "/ux_ui_credentials/static/css/main.eeec659c.chunk.css.map"
 }
