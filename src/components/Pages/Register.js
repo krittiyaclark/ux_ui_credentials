@@ -33,32 +33,29 @@ class Register extends Component {
                   </button>
                 </form>
 
-
-
-                <footer className="section">
-                  <div className="container-fluid">
-                    <div className="row">
-                        <div className="col-sm-4">
-                            <span className="footer-font"><Link to='/ForgotPassword'>Forgot Password?</Link></span>
-                        </div>
-                        <div className="col-sm-8 text-right">
-                            <span className="footer-font">Don't have an account? <Link to='/Register'>Get started</Link></span>
-                        </div>
-                        <div  className="col-sm-12 text-center" id="downloadApp">
-                            <span className="footer-font">
-                                Looking for the
-                                <span className="mac">Mac</span><span className="windows">Windows</span> app?
-                                <a href="https://app.zeplin.io/downloads" className="downloadsLink"> Download here</a>
-                            </span>
-                        </div>
+                  <footer className="section">
+                    <div className="container-fluid">
+                      <div className="row">
+                          <div className="col-sm-4">
+                              <span className="footer-font"><Link to='/ForgotPassword'>Forgot Password?</Link></span>
+                          </div>
+                          <div className="col-sm-8 text-right">
+                              <span className="footer-font">Don't have an account? <Link to='/Register'>Get started</Link></span>
+                          </div>
+                          <div  className="col-sm-12 text-center" id="downloadApp">
+                              <span className="footer-font">
+                                  Looking for the
+                                  <span className="mac">Mac</span><span className="windows">Windows</span> app?
+                                  <a href="https://app.zeplin.io/downloads" className="downloadsLink"> Download here</a>
+                              </span>
+                          </div>
+                      </div>
                     </div>
-                  </div>
-                </footer>
-      </div>
-    </div>
-  </div>
-
-      </>
+                  </footer>
+              </div>
+            </div>
+          </div>
+    </>
     )
   }
 }

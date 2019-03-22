@@ -1,6 +1,7 @@
 /* Variables */
 
 $black: #010000;
+$blue: #0099F7;
 $white: #ffff;
 $lightGrey: #e6e6e6;
 $darkGrey: #333333;
@@ -16,7 +17,7 @@ $font-size-medium: 29px;
 $font-size-large: 45px;
 $font-size-extra-large: 54px;
 $grey: #554d56;
-$yello-orange:#fdbd39;
+$yello-orange: #fdbd39;
 
 /* Mixins */
 @mixin transition($in) {
@@ -26,6 +27,7 @@ $yello-orange:#fdbd39;
 	-o-transition:$in;
 	-ms-transition:$in;
 }
+
 @mixin transform($in) {
 	transform:$in;
 	-webkit-transform:$in;
@@ -33,6 +35,7 @@ $yello-orange:#fdbd39;
 	-o-transform:$in;
 	-ms-transform:$in;
 }
+
 @mixin animation($in) {
 	animation:$in;
 	-webkit-animation:$in;

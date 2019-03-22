@@ -17,7 +17,6 @@ class ForgotPassword extends Component {
 
                 <form>
                   <div className="form-group">
-
                     <input type="email" className="form-control" aria-describedby="emailHelp" required></input>
                     <label htmlFor="exampleInputEmail1" className="form-control-placeholder">Username / email</label>
                   </div>

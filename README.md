@@ -1,6 +1,6 @@
 # UI/UX Credentials
 
-This project was created with [React](https://reactjs.org/), [Gulp](https://gulpjs.com/), [SASS](https://sass-lang.com/) and [Bootstrap](https://getbootstrap.com/)
+The Login form was created with [React](https://reactjs.org/), [Gulp](https://gulpjs.com/), [SASS](https://sass-lang.com/) and [Bootstrap](https://getbootstrap.com/)
 
 To get started developing right away:
 
@@ -12,7 +12,8 @@ To get started developing right away:
 
 ## Features
 
-* This project use React Router to link to the Login page, the ForgotPassword page and the Register page
+* Clean and responsive design. Use modern structure/technology (SCSS, HTML5, flex) in HTML/CSS.
+* Use React Router to link to the Login page, the ForgotPassword page and the Register page
 * Animation by CSS
 
 ## License
