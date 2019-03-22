@@ -10,18 +10,21 @@ class Register extends Component {
               <div className="card mt-5 col-md-8 mx-auto form-size">
                 <header className="text-center">
                   <h1>
-                    Great to see you again!
+                    Start using Zeplin!
+                    <small className="text-danger mt-3">It’s free!.</small>
                   </h1>
                 </header>
 
                 <form>
                   <div className="form-group">
-
                     <input type="email" className="form-control" aria-describedby="emailHelp" required></input>
-                    <label htmlFor="exampleInputEmail1" className="form-control-placeholder">Username / email</label>
+                    <label htmlFor="exampleInputEmail1" className="form-control-placeholder">Email</label>
                   </div>
                   <div className="form-group">
-
+                    <input type="username" className="form-control" aria-describedby="usernameHelp" required></input>
+                    <label htmlFor="exampleInputUsername" className="form-control-placeholder">Username</label>
+                  </div>
+                  <div className="form-group">
                     <input type="password" className="form-control" id="exampleInputPassword1" required></input>
                     <label htmlFor="exampleInputPassword1" className="inputLabel form-control-placeholder">Password</label>
                   </div>

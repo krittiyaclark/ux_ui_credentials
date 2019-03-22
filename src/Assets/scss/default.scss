@@ -45,6 +45,11 @@ header {
 }
 
 /* FORM */
+.form-size {
+  min-width: 392px;
+  width: 100%;
+}
+
 .form-group {
   position: relative;
   margin-bottom: 1.5rem;
@@ -66,7 +71,9 @@ header {
   opacity: 1;
 }
 
-input[type=password], input[type=email] {
+input[type=password],
+input[type=email],
+input[type=username] {
   background-color: transparent;
   border: none;
   border-bottom: 1px solid #9e9e9e;
@@ -138,23 +145,4 @@ input[type=password], input[type=email] {
    a {
      color: $yello-orange;
    }
-}
-
-/* MEDIA QUERY */
-@media only screen and (min-width: 1200px) {
-  .form-size {
-    min-width: 392px;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .form-size {
-    min-width: 392px;
-  }
-}
-
-@media only screen and (orientation: landscape) {
-  .form-size {
-    width: 100%;
-  }
 }
