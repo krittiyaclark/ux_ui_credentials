@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Login extends Component {
   render() {
@@ -24,7 +24,7 @@ class Login extends Component {
                     <label htmlFor="exampleInputPassword1" className="inputLabel form-control-placeholder">Password</label>
                   </div>
                   <button type="submit" className="btn btn-primary mt-3 mb-3 submit hover-effect">
-                    <div class='insider'></div>Submit
+                    <div className="insider"></div>Submit
                   </button>
                 </form>
 
@@ -32,10 +32,10 @@ class Login extends Component {
                     <div className="container-fluid">
                       <div className="row">
                           <div className="col-sm-4">
-                              <span className="footer-font"><Link to='/ForgotPassword'>Forgot Password?</Link></span>
+                              <span className="footer-font"><Link to="/ForgotPassword">Forgot Password?</Link></span>
                           </div>
                           <div className="col-sm-8 text-right">
-                              <span className="footer-font">Don't have an account? <Link to='/Register'>Get started</Link></span>
+                              <span className="footer-font">Don't have an account? <Link to="/Register">Get started</Link></span>
                           </div>
                           <div  className="col-sm-12 text-center" id="downloadApp">
                               <span className="footer-font">

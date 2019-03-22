@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Register extends Component {
   render() {
@@ -29,25 +29,18 @@ class Register extends Component {
                     <label htmlFor="exampleInputPassword1" className="inputLabel form-control-placeholder">Password</label>
                   </div>
                   <button type="submit" className="btn btn-primary mt-3 mb-3 submit hover-effect">
-                    <div class='insider'></div>Submit
+                    <div className="insider"></div>Submit
                   </button>
                 </form>
 
                   <footer className="section">
                     <div className="container-fluid">
                       <div className="row">
-                          <div className="col-sm-4">
-                              <span className="footer-font"><Link to='/ForgotPassword'>Forgot Password?</Link></span>
+                          <div className="col-sm-12 text-center">
+                              <span className="footer-font">Already have an account?<Link to="/"> Login here</Link></span>
                           </div>
-                          <div className="col-sm-8 text-right">
-                              <span className="footer-font">Don't have an account? <Link to='/Register'>Get started</Link></span>
-                          </div>
-                          <div  className="col-sm-12 text-center" id="downloadApp">
-                              <span className="footer-font">
-                                  Looking for the
-                                  <span className="mac">Mac</span><span className="windows">Windows</span> app?
-                                  <a href="https://app.zeplin.io/downloads" className="downloadsLink"> Download here</a>
-                              </span>
+                          <div className="col-sm-12 text-center">
+                              <span className="footer-font">By clicking ‘Sign up FREE’, I agree to Zeplin’s <a href="https://zeplin.io/terms"> Terms of Service</a></span>
                           </div>
                       </div>
                     </div>

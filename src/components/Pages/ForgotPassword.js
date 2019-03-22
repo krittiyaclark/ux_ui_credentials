@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
 
 class ForgotPassword extends Component {
   render() {
@@ -11,7 +10,7 @@ class ForgotPassword extends Component {
                 <header className="text-center">
                   <h1>
                     Forgot your password?
-                    <small className="text-danger mt-3">We'll send you an email with a reset link.</small>
+                    <small className="text-danger mt-3">We"ll send you an email with a reset link.</small>
                   </h1>
                 </header>
 

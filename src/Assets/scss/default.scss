@@ -42,12 +42,12 @@ header {
   border-radius: 4px;
   border: 0;
   padding: 15px;
-}
 
-/* FORM */
-.form-size {
-  min-width: 392px;
-  width: 100%;
+    /* FORM */
+    &.form-size {
+      min-width: 392px;
+      width: 100%;
+    }
 }
 
 .form-group {

@@ -1,5 +1,4 @@
 /* Variables */
-
 $black: #010000;
 $blue: #0099F7;
 $white: #ffff;
@@ -9,6 +8,8 @@ $red: #ff1755;
 $lightPink: #f7bac9;
 $pink: #ff6d95;
 $yellow: #f9f6bd;
+$yello-orange: #fdbd39;
+$grey: #554d56;
 $font-family: 'Montserrat';
 $font-light-weight: 200;
 $font-size-small: 9px;
@@ -16,8 +17,6 @@ $font-size-nornal: 14px;
 $font-size-medium: 29px;
 $font-size-large: 45px;
 $font-size-extra-large: 54px;
-$grey: #554d56;
-$yello-orange: #fdbd39;
 
 /* Mixins */
 @mixin transition($in) {

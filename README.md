@@ -12,7 +12,7 @@ To get started developing right away:
 
 ## Features
 
-* Clean and responsive design. Use modern structure/technology (SCSS, HTML5, flex) in HTML/CSS.
+* Clean and responsive design. This project use modern structure/technology (SCSS, HTML5, flex) in HTML/CSS.
 * Use React Router to link to the Login page, the ForgotPassword page and the Register page
 * Animation by CSS
 
